@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Resume | Home</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<header>
+<nav class="navbar">
+  <h2 class="logo">My<span>Resume</span></h2>
+  <ul>
+    <li><a href="index.html" class="active">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+</header>
+
+<!-- Hero / Landing Section -->
+<section id="home" class="hero tilt" data-aos="fade-up">
+  <div class="hero-text">
+    <h1>Hello, I'm <span>Suryansh Singh</span></h1>
+    <p>Aspiring Web Developer | Frontend | Backend</p>
+    <a href="about.html" class="btn">About Me</a>
+    <a href="projects.html" class="btn">View Projects</a>
+    <a href="resume.pdf" download class="btn">Download Resume</a>
+  </div>
+  <div class="hero-img">
+    <img src="photo.jpg" alt="Your Photo">
+  </div>
+</section>
+
+<button id="backToTop">↑</button>
+
+<footer>
+<p>© 2025 Your Name | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({ duration: 1000, once: true });
+</script>
+</body>
+</html>
